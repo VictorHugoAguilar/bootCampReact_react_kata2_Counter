@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
     
+      <Counter initialValue ={0} step={1}/>
       <Counter initialValue ={0} step={2}/>
       <Counter initialValue ={1} step={3}/>
 
